@@ -1,7 +1,5 @@
 class Circle {
- // edit made by kai
- // edit made by kai(2)
- // another Edit
+ // Hello Kai!
   public static void main(String[] args) {
     int size = 15; // Integer.parseInt(args[0]);
     Circle c = new Circle(size);
