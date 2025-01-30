@@ -3,9 +3,11 @@ module Intro2 where
 -- String algebra:
 name = "Alice"
 -- "if" has a special syntax but otherwise a typed version of Lisp's "if":
+  -- /= means "not equal to"
 name2 = if name /= "" then name else "no name"
 
 pname3 = print "Bob"
+
 
 myprogram = print (1 + m)  -- compiler error: m undefined
 m = 1                      -- unless this line is also present
