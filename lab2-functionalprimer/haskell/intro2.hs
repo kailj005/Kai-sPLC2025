@@ -36,6 +36,7 @@ main =
 -- generic string conversion, using a Java-friendly name:
 toString value = show value
 
+
 -- string concatenation:
 greet1 = "hello " ++ name ++ (toString 123)
 -- the same, but with the operator as a function (like Lisp):
